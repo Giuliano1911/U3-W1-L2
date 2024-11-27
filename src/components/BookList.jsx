@@ -28,7 +28,9 @@ class BookList extends Component {
         <Row className="justify-content-center">
           {filteredBooks
             .filter((book) =>
-              book.title.toLowerCase().includes(this.state.search.toLowerCase())
+              book.title
+                .toLowerCase()
+                .includes(this.state.search.toLowerCase().trim())
             )
             .map((book) => {
               return (

@@ -12,7 +12,7 @@ function App() {
       <header>
         <CustomNavbar />
       </header>
-      <main>
+      <main className="mb-5">
         <Welcome />
         <Container fluid>
           <AllTheBooks />
