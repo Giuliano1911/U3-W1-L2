@@ -39,6 +39,7 @@ class BookList extends Component {
                   title={book.title}
                   price={book.price}
                   img={book.img}
+                  asin={book.asin}
                 />
               )
             })}
