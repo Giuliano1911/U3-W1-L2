@@ -2,7 +2,7 @@ import { Component } from 'react'
 import AddComment from './AddComment'
 import { Col, Card, Button, Spinner, Alert } from 'react-bootstrap'
 const apiKey =
-  'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzM3MDBhMDhhZDEyOTAwMTU4NzZiYjEiLCJpYXQiOjE3MzE2NTc4ODgsImV4cCI6MTczMjg2NzQ4OH0.xQK6uAb_sB0o0F3MwMso74u56QBkTHd7Yggrfk3SM8Y'
+  'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzYwMGQ4MjBlYTI4NjAwMTUyOGI5NTciLCJpYXQiOjE3MzQzNDgxNjIsImV4cCI6MTczNTU1Nzc2Mn0.I3Ul7VXyl9Z9CTkVeCHJAKY27VZPTmdJBhs3Wtg-oj8'
 
 class CommentArea extends Component {
   state = {
